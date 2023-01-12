@@ -29,7 +29,7 @@ class CreateAccountView(APIView):
         return Response(
                         {
                             "status": "Error",
-                            "error_message": serializer.errors
+                            "data": serializer.errors
                         },
                         status=status.HTTP_400_BAD_REQUEST
                        )
