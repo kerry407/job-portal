@@ -90,3 +90,7 @@ Allows only a job poster to delete a specific job application.
 # Authentication
 
 The API requires authentication to perform certain actions. To authenticate, you can use the built-in Django Rest Framework authentication system. You can create a new user by sending a POST request to the `api/auth/sign-up/` endpoint, and then authenticate using a POST request to the `api/auth/login/` endpoint. Once you are authenticated, you can include your token in the Authorization header of your requests to access protected endpoints.
+
+# Contributing
+
+Contributions to the API are welcome. To contribute, please fork the repository and submit a pull request with your changes. Please make sure to include tests for any new functionality.
